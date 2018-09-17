@@ -8,7 +8,7 @@ require('timezone-support')
 const timestamp = 1536901200000
 const timezone = 'America/Denver'
 const offset = -21600 // in seconds
-const formatString = 'MM/DD/YYYY hh:mma Z'
+const formatString = 'MM/DD/YYYY dddd hh:mma Z'
 
 const momentString = moment(timestamp)
   .tz(timezone)
